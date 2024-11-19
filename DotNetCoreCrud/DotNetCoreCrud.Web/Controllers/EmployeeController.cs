@@ -54,6 +54,7 @@ namespace DotNetCoreCrud.Web.Controllers
         {
             if (ModelState.IsValid)
             {
+
                 using (SqlConnection conn = new SqlConnection(_connectionString))
                 {
                     SqlCommand cmd = new SqlCommand("spAddEmployeess", conn);
