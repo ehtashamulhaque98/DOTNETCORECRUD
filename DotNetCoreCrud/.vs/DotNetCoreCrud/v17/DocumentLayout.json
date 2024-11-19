@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ehtas\\source\\repos\\DotNetCoreCrud\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\source\\repos\\dotnetcorecrud\\dotnetcorecrud.web\\dataaccesslayer\\employeedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\dataaccesslayer\\employeedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\source\\repos\\dotnetcorecrud\\dotnetcorecrud.web\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\source\\repos\\dotnetcorecrud\\dotnetcorecrud.web\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Ehtas\\source\\repos\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Ehtas\\source\\repos\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "DotNetCoreCrud.Web\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAA5wBkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T10:46:59.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeData.cs",
+              "DocumentMoniker": "C:\\Users\\Ehtas\\source\\repos\\DotNetCoreCrud\\DotNetCoreCrud.Web\\DataAccessLayer\\EmployeeData.cs",
+              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\DataAccessLayer\\EmployeeData.cs",
+              "ToolTip": "C:\\Users\\Ehtas\\source\\repos\\DotNetCoreCrud\\DotNetCoreCrud.Web\\DataAccessLayer\\EmployeeData.cs",
+              "RelativeToolTip": "DotNetCoreCrud.Web\\DataAccessLayer\\EmployeeData.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T11:05:52.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ehtas\\source\\repos\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ehtas\\source\\repos\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Employee\\Index.cshtml*",
+              "RelativeToolTip": "DotNetCoreCrud.Web\\Views\\Employee\\Index.cshtml*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T04:32:04.355Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
