@@ -177,11 +177,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ehtas\\source\\repos\\DotNetCoreCrud\\DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj",
       "projectName": "DotNetCoreCrud.Web",
-      "projectPath": "C:\\Users\\Ehtas\\source\\repos\\DotNetCoreCrud\\DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj",
+      "projectPath": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj",
       "packagesPath": "C:\\Users\\Ehtas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ehtas\\source\\repos\\DotNetCoreCrud\\DotNetCoreCrud.Web\\obj\\",
+      "outputPath": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ehtas\\AppData\\Roaming\\NuGet\\NuGet.Config",

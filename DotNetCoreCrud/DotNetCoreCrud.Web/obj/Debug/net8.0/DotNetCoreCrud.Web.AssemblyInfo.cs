@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotNetCoreCrud.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d62396f7248ba5ee2bc877b7809f51fd2db3fa9c")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotNetCoreCrud.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotNetCoreCrud.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

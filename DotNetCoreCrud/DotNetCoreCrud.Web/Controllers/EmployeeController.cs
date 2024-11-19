@@ -3,21 +3,25 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Data;
 using System.Data.SqlClient;
+using DotNetCoreCrud.Web.DataAccessLayer;
+using Microsoft.Extensions.Configuration;
 
 namespace DotNetCoreCrud.Web.Controllers
 {
     public class EmployeeController : Controller
     {
-        private readonly string _connectionString;
+        private static string _connectionString;
+        EmployeeData employeeData;
 
         public EmployeeController(IConfiguration configuration)
         {
             _connectionString = configuration.GetConnectionString("DefaultConnection");
+            employeeData = new(_connectionString);
         }
 
         private List<SelectListItem> GetEmployeeTypeList()
         {
-            var employeeTypes = GetEmployeeTypes();
+            var employeeTypes = employeeData.GetEmployeeTypes();
 
             List<SelectListItem> selectList = new List<SelectListItem>();
             foreach (var type in employeeTypes)
@@ -31,71 +35,46 @@ namespace DotNetCoreCrud.Web.Controllers
             return selectList;
         }
 
-        private List<EmployeeType> GetEmployeeTypes()
-        {
-            var employeeTypes = new List<EmployeeType>();
-
-            using (SqlConnection conn = new SqlConnection(_connectionString))
-            {
-                string query = "SELECT Id, TypeName FROM EmployeeType";
-
-                SqlCommand cmd = new SqlCommand(query, conn);
-
-                conn.Open();
-                SqlDataReader reader = cmd.ExecuteReader();
-
-                while (reader.Read())
-                {
-                    employeeTypes.Add(new EmployeeType()
-                    {
-                        Id = (int)reader["Id"],
-                        TypeName = reader["TypeName"].ToString()
-                    });
-
-                }
-            }
-            return employeeTypes;
-        }
-
-
-
         public IActionResult Index()
         {
+            var employees = employeeData.GetAllEmployees();
 
-            string connectionValue = _connectionString;
-            var employees = GetAllEmployees();
             return View(employees);
         }
 
-        private List<Employee> GetAllEmployees()
+        [HttpGet]
+        public IActionResult Create()
         {
-            var employees = new List<Employee>();
-
-            using (SqlConnection conn = new SqlConnection(_connectionString))
-            {
-                SqlCommand cmd = new SqlCommand("spGetAllEmployeess", conn);
-                cmd.CommandType = CommandType.StoredProcedure;
-
-                conn.Open();
-                SqlDataReader reader = cmd.ExecuteReader();
-                while (reader.Read())
-                {
-                    employees.Add(new Employee()
-                    {
-                        Id = (int)reader["Id"],
-                        Name = reader["Name"].ToString(),
-                        Gender = reader["Gender"].ToString(),
-                        Age = (int)reader["Age"],
-                        Salary = Convert.ToDecimal(reader["Salary"]),
-                        City = reader["City"].ToString(),
-                        Email = reader["Email"].ToString(),
-                        EmployeeType = reader["EmployeeType"].ToString(),
-                        EmployeeTypeId = reader.IsDBNull(reader.GetOrdinal("EmployeeTypeId")) ? 0 : (int)reader["EmployeeTypeId"]
-                    });
-                }
-            }
-            return employees;
+            ViewBag.EmployeeTypes = GetEmployeeTypeList();
+            return View();
         }
 
+        [HttpPost]
+        public IActionResult Create(Employee employee)
+        {
+            if (ModelState.IsValid)
+            {
+                using (SqlConnection conn = new SqlConnection(_connectionString))
+                {
+                    SqlCommand cmd = new SqlCommand("spAddEmployeess", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    cmd.Parameters.AddWithValue("@Name", employee.Name);
+                    cmd.Parameters.AddWithValue("@Gender", employee.Gender);
+                    cmd.Parameters.AddWithValue("@Age", employee.Age);
+                    cmd.Parameters.AddWithValue("@Salary", employee.Salary);
+                    cmd.Parameters.AddWithValue("@City", employee.City);
+                    cmd.Parameters.AddWithValue("@Email", employee.Email);
+                    cmd.Parameters.AddWithValue("@EmployeeTypeId", employee.EmployeeTypeId);
+
+                    conn.Open();
+                    cmd.ExecuteNonQuery();
+                }
+                return RedirectToAction("Index");
+            }
+
+            ViewBag.EmployeeTypes = GetEmployeeTypeList();
+            return View(employee);
+        }
     }
 }
