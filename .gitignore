@@ -6,3 +6,10 @@ DotNetCoreCrud/.vs/DotNetCoreCrud/FileContentIndex/b30324f1-fe1b-4a2c-8aef-321b2
 /DotNetCoreCrud/.vs
 /DotNetCoreCrud/.vs
 *.bin
+/DotNetCoreCrud/DotNetCoreCrud.Web/obj
+/DotNetCoreCrud/DotNetCoreCrud.Web/bin
+/DotNetCoreCrud/DotNetCoreCrud.Web/bin
+*.bin
+*.dll
+/DotNetCoreCrud/.vs
+DotNetCoreCrud/DotNetCoreCrud.Web/bin/Debug/net8.0/DotNetCoreCrud.Web.dll

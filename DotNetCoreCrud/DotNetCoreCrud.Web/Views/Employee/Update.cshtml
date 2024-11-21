@@ -1,0 +1,55 @@
+﻿@model DotNetCoreCrud.Web.Models.Employee
+
+<h2>Update Employee</h2>
+
+@foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+{
+    <div class="alert alert-danger">
+        @error.ErrorMessage
+    </div>
+}
+     <form asp-action="Update" asp-route-id="@Model.Id" method="post">
+
+    <div>
+        <label asp-for="Name"></label>
+        <input asp-for="Name" />
+    </div>
+
+    <div>
+        <label asp-for="Gender"></label>
+        <input asp-for="Gender" />
+    </div>
+
+    <div>
+        <label asp-for="Age"></label>
+        <input asp-for="Age" />
+    </div>
+
+    <div>
+        <label asp-for="Salary"></label>
+        <input asp-for="Salary" />
+    </div>
+
+    <div>
+        <label asp-for="City"></label>
+        <input asp-for="City" />
+    </div>
+
+    <div>
+        <label asp-for="Email"></label>
+        <input asp-for="Email" />
+    </div>
+
+    <div class="form-group">
+        <label>Employee Type</label>
+        <select asp-for="EmployeeTypeId" asp-items="ViewBag.EmployeeTypes" class="form-control">
+            <option value="">-- Select Employee Type --</option>
+        </select>
+    </div>
+    
+    <button type="submit">Update</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

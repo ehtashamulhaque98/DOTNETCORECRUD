@@ -54,7 +54,6 @@ namespace DotNetCoreCrud.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-
                 using (SqlConnection conn = new SqlConnection(_connectionString))
                 {
                     SqlCommand cmd = new SqlCommand("spAddEmployeess", conn);
@@ -77,5 +76,79 @@ namespace DotNetCoreCrud.Web.Controllers
             ViewBag.EmployeeTypes = GetEmployeeTypeList();
             return View(employee);
         }
+
+        [HttpGet]
+
+        public IActionResult Update(int id)
+        {
+            var employee = employeeData.GetEmployeeById(id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+
+
+            ViewBag.EmployeeTypes = GetEmployeeTypeList();
+
+            return View(employee);
+        }
+
+        [HttpPost]
+
+        public IActionResult Update(int id, Employee employee)
+        {
+            if (ModelState.IsValid)
+            {
+                using (SqlConnection conn = new SqlConnection(_connectionString))
+                {
+                    SqlCommand cmd = new SqlCommand("spUpdateEmployeess", conn);
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    cmd.Parameters.AddWithValue("@Id", id);
+                    cmd.Parameters.AddWithValue("@Name", employee.Name);
+                    cmd.Parameters.AddWithValue("@Gender", employee.Gender);
+                    cmd.Parameters.AddWithValue("@Age", employee.Age);
+                    cmd.Parameters.AddWithValue("@Salary", employee.Salary);
+                    cmd.Parameters.AddWithValue("@City", employee.City);
+                    cmd.Parameters.AddWithValue("@Email", employee.Email);
+                    cmd.Parameters.AddWithValue("@EmployeeTypeId", employee.EmployeeTypeId);
+
+                    conn.Open();
+                    cmd.ExecuteNonQuery();
+                }
+                return RedirectToAction("Index");
+            }
+            ViewBag.EmployeeTypes= GetEmployeeTypeList();
+            return View(employee);
+        }
+
+        [HttpGet]
+
+        public IActionResult Delete(int id)
+        {
+            var employee = employeeData.GetEmployeeById(id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+            return View(employee);
+        }
+
+        [HttpPost, ActionName("Delete")]
+
+        public IActionResult DeleteConfirmed(int id)
+        {
+            using (SqlConnection conn = new SqlConnection(_connectionString))
+            {
+                SqlCommand cmd = new SqlCommand("spDeleteEmployeess", conn);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@Id", id);
+
+                conn.Open();
+                cmd.ExecuteNonQuery();
+            }
+            return RedirectToAction("Index");
+        }
+
     }
 }

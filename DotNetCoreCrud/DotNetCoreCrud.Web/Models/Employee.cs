@@ -18,8 +18,7 @@ namespace DotNetCoreCrud.Web.Models
         public string City { get; set; }
         [Required]
         public string Email { get; set; }
-        [Required]
-        public string EmployeeType { get; set; }
+        public string? EmployeeType { get; set; }
         [Required]
         public int EmployeeTypeId { get; set; }
     }
