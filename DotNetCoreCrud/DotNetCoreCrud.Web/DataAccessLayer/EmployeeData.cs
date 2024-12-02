@@ -66,7 +66,7 @@ namespace DotNetCoreCrud.Web.DataAccessLayer
             }
             return employees;
         }
-
+        
         public void AddEmployee(Employee employee)
         {
             using (SqlConnection conn = new SqlConnection(_connectionString))

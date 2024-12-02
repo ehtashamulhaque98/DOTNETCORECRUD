@@ -1,32 +1,30 @@
-﻿using DotNetCoreCrud.Web.Models;
+﻿using DotNetCoreCrud.Web.DataAccessLayer;
+using DotNetCoreCrud.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Data;
 using System.Data.SqlClient;
-using DotNetCoreCrud.Web.DataAccessLayer;
-using Microsoft.Extensions.Configuration;
 
 namespace DotNetCoreCrud.Web.Controllers
 {
-    public class EmployeeController : Controller
+    public class StudentController : Controller
     {
         private static string _connectionString;
-        EmployeeData employeeData;
+        StudentData studentData;
 
-        public EmployeeController(IConfiguration configuration)
+        public StudentController(IConfiguration configuration)
         {
             _connectionString = configuration.GetConnectionString("DefaultConnection");
-            employeeData = new(_connectionString);
+            studentData = new(_connectionString);
         }
-         
-        private List<SelectListItem> GetEmployeeTypeList()
+        private List<SelectListItem> GetCourseTypeList()
         {
-            var employeeTypes = employeeData.GetEmployeeTypes();
+            var studentTypes = studentData.GetCourseTypes();
 
             List<SelectListItem> selectList = new List<SelectListItem>();
-            foreach (var type in employeeTypes)
+            foreach (var type in studentTypes)
             {
-                selectList.Add(new SelectListItem
+                selectList.Add(new SelectListItem()
                 {
                     Text = type.TypeName,
                     Value = type.Id.ToString()
@@ -35,77 +33,74 @@ namespace DotNetCoreCrud.Web.Controllers
             return selectList;
         }
 
+
         public IActionResult Index()
         {
-            var employees = employeeData.GetAllEmployees();
-
-            return View(employees);
+            var student = studentData.GetAllStudents();
+            return View(student);
         }
+
         [HttpGet]
         public IActionResult Create()
         {
-            ViewBag.EmployeeTypes = GetEmployeeTypeList();
+            ViewBag.CourseTypes = GetCourseTypeList();
             return View();
         }
+
         [HttpPost]
-        public IActionResult Create(Employee employee)
+        public IActionResult Create(Student student)
         {
             if (ModelState.IsValid)
             {
-                employeeData.AddEmployee(employee);
+                studentData.AddStudent(student);
                 return RedirectToAction("Index");
             }
 
-            ViewBag.EmployeeTypes = GetEmployeeTypeList();
-            return View(employee);
+            ViewBag.CourseTypes = GetCourseTypeList();
+            return View(student);
         }
 
         [HttpGet]
-
         public IActionResult Update(int id)
         {
-            var employee = employeeData.GetEmployeeById(id);
-            if (employee == null)
+            var student = studentData.GetStudentById(id);
+            if (student == null)
             {
                 return NotFound();
             }
-
-
-            ViewBag.EmployeeTypes = GetEmployeeTypeList();
-
-            return View(employee);
+            ViewBag.CourseTypes = GetCourseTypeList();
+            return View(student);
         }
 
         [HttpPost]
-        public IActionResult Update(int id, Employee employee)
+        public IActionResult Update(int id, Student student)
         {
             if (ModelState.IsValid)
             {
-                employee.Id = id;
-                employeeData.UpdateEmployee(employee);
+                student.Id = id;
+                studentData.UpdateStudent(student);
                 return RedirectToAction("Index");
             }
 
-            ViewBag.EmployeeTypes = GetEmployeeTypeList();
-            return View(employee);
+            ViewBag.CourseTypes = GetCourseTypeList();
+            return View(student);
         }
 
         [HttpGet]
-
         public IActionResult Delete(int id)
         {
-            var employee = employeeData.GetEmployeeById(id);
-            if (employee == null)
+            var student = studentData.GetStudentById(id);
+            if (student == null)
             {
                 return NotFound();
             }
-            return View(employee);
+            return View(student);
         }
 
         [HttpPost, ActionName("Delete")]
         public IActionResult DeleteConfirmed(int id)
         {
-            employeeData.DeleteEmployee(id);
+            studentData.DeleteStudent(id);
             return RedirectToAction("Index");
         }
     }
