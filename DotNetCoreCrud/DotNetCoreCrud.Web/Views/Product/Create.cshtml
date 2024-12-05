@@ -1,0 +1,66 @@
+﻿@model DotNetCoreCrud.Web.Models.Product
+
+<h2>Add Product </h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="ProductName"></label>
+        <input asp-for="ProductName" class="form-control" />
+        <span asp-validation-for="ProductName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Quantity"></label>
+        <input asp-for="Quantity" class="form-control" />
+        <span asp-validation-for="Quantity" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ProductCategoryId"></label>
+        <select asp-for="ProductCategoryId" class="form-control" asp-items="ViewBag.ProductCategories"></select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+</form>
+
+
+@* <form asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="ProductName">Product Name</label>
+        <input type="text" class="form-control" id="ProductName" name="ProductName" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Price">Price</label>
+        <input type="number" class="form-control" id="Price" name="Price" required step="0.01" />
+    </div>
+
+    <div class="form-group">
+        <label for="Quantity">Quantity</label>
+        <input type="number" class="form-control" id="Quantity" name="Quantity" required />
+    </div>
+
+    <div class="form-group">
+        <label for="ProductCategory">Product Category</label>
+        <select class="form-control" id="ProductCategory" name="ProductCategory" required>
+            <option value="">Select Category</option>
+            @foreach (var category in ViewBag.ProductCategories as List<SelectListItem>)
+            {
+                <option value="@category.Value">@category.Text</option>
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add Product</button>
+</form> *@
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
