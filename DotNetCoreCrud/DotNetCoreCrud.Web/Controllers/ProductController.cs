@@ -98,12 +98,18 @@ namespace DotNetCoreCrud.Web.Controllers
             return View(product);
         }
 
-        [HttpPost, ActionName("Delete")]
-        public IActionResult DeleteConfirmed(int id)
+        [HttpPost]
+        public IActionResult DeleteProduct(int id)
         {
-
-            productData.DeleteProduct(id);
-            return RedirectToAction("Index");
+            try
+            {
+                productData.DeleteProduct(id);
+                return Json(new { success = true });
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false });
+            }
         }
     }
 }

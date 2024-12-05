@@ -57,10 +57,7 @@ namespace DotNetCoreCrud.Web.DataAccessLayer
                             ProductName = reader["ProductName"].ToString(),
                             Price = (decimal)reader["Price"],
                             Quantity = (int)reader["Quantity"],
-                            //ProductCategory = reader["ProductCategory"] != DBNull.Value ? reader["ProductCategory"].ToString() : null,
                             ProductCategory = reader["ProductCategory"].ToString(),
-                            //ProductId = (int)reader["ProductId"]
-                            //ProductCategoryId = (int)reader["ProductCategoryId"]
                         });
                     }
                 }
@@ -80,8 +77,6 @@ namespace DotNetCoreCrud.Web.DataAccessLayer
                 cmd.Parameters.AddWithValue("@Price", product.Price);
                 cmd.Parameters.AddWithValue("@Quantity", product.Quantity);
                 cmd.Parameters.AddWithValue("@ProductCategory", product.ProductCategory);
-                //cmd.Parameters.AddWithValue("@ProductId", product.ProductId);
-                //cmd.Parameters.AddWithValue("@ProductCategoryId", product.ProductCategoryId);
                 conn.Open();
                 cmd.ExecuteNonQuery();
             }
@@ -101,8 +96,7 @@ namespace DotNetCoreCrud.Web.DataAccessLayer
                 cmd.Parameters.AddWithValue("@Price", product.Price);
                 cmd.Parameters.AddWithValue("@Quantity", product.Quantity);
                 cmd.Parameters.AddWithValue("@ProductCategory", product.ProductCategory);
-                //cmd.Parameters.AddWithValue("@ProductId", product.ProductId);
-                //cmd.Parameters.AddWithValue("@ProductCategoryId", product.ProductCategoryId);
+
                 con.Open();
                 cmd.ExecuteNonQuery();
             }
@@ -148,9 +142,6 @@ namespace DotNetCoreCrud.Web.DataAccessLayer
                             Price = (decimal)reader["Price"],
                             Quantity = (int)reader["Quantity"],
                             ProductCategory = reader["ProductCategory"].ToString()
-                            //ProductId = (int)reader["ProductId"]
-                            //ProductId = reader["ProductId"] != DBNull.Value ? (int)reader["ProductId"] : 0 
-                            //ProductCategoryId = (int)reader["ProductCategoryId"]
                         };
                     }
                 }
