@@ -36,16 +36,28 @@ namespace DotNetCoreCrud.Web.DataAccessLayer
             }
 
         }
-        public List<Student> GetAllStudents()
+        public List<Student> GetAllStudents(string search = null)
         {
             List<Student> students = new List<Student>();
 
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand("spGetAllStudents", connection);
-                command.CommandType = CommandType.StoredProcedure;
 
+                SqlCommand command;
+
+                if (!string.IsNullOrEmpty(search))
+                {
+                    command = new SqlCommand("spGetAllStudents", connection);
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.AddWithValue("@Search", "%" + search + "%");
+                }
+                else
+                {
+                    command = new SqlCommand("spGetAllStudents", connection);
+                    command.CommandType = CommandType.StoredProcedure;
+                }
+                  
                 using (SqlDataReader reader = command.ExecuteReader())
                 {
                     while (reader.Read())
@@ -61,7 +73,6 @@ namespace DotNetCoreCrud.Web.DataAccessLayer
                             PhoneNumber = reader["PhoneNumber"].ToString(),
                             City = reader["City"].ToString(),
                             Course = reader["Course"].ToString(),
-                            //CourseId = (int)reader["CourseId"]
 
                         });
                     }
@@ -151,7 +162,6 @@ namespace DotNetCoreCrud.Web.DataAccessLayer
                             Department = reader["Department"].ToString(),
                             PhoneNumber = reader["PhoneNumber"].ToString(),
                             City = reader["City"].ToString(),
-                            //Course = reader["Course"].ToString(),
                             CourseId = (int)reader["CourseId"]
                         };
                     }

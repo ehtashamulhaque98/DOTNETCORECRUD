@@ -33,11 +33,16 @@ namespace DotNetCoreCrud.Web.Controllers
             return selectList;
         }
 
-
-        public IActionResult Index()
+        public IActionResult Index(string search)
         {
-            var student = studentData.GetAllStudents();
-            return View(student);
+            var students = studentData.GetAllStudents();
+            if (!string.IsNullOrEmpty(search))
+            {
+                students = students.Where(s =>
+                s.Name.Contains(search, StringComparison.OrdinalIgnoreCase) ||
+                s.Course.Contains(search, StringComparison.OrdinalIgnoreCase)).ToList();
+            }
+            return View(students);
         }
 
         [HttpGet]
