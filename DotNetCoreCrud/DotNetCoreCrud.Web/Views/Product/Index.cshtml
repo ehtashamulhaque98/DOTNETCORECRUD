@@ -1,6 +1,17 @@
 ﻿@model List<DotNetCoreCrud.Web.Models.Product>
 
 <h2>Product List</h2>
+<form method="get" action="@Url.Action("Index", "Product")">
+    <div class="form-group">
+        <input type="text"
+               name="search"
+               placeholder="Search products..."
+               class="form-control"
+
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
 
 <a asp-action="Create" class="btn btn-primary">Add New Product</a>
 
@@ -54,5 +65,9 @@
         }
     </script>
 }
+
+
+
+
 
 

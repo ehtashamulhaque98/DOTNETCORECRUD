@@ -31,13 +31,19 @@ namespace DotNetCoreCrud.Web.Controllers
             }
             return selectList;
         }
-
-        public IActionResult Index()
+        public IActionResult Index(string search)
         {
             var products = productData.GetAllProducts();
+
+            if (!string.IsNullOrEmpty(search))
+            {
+                products = products.Where(p =>
+                p.ProductName.Contains(search, StringComparison.OrdinalIgnoreCase) ||
+                p.ProductCategory.Contains(search, StringComparison.OrdinalIgnoreCase)).ToList();
+            }
             return View(products);
         }
-
+    
         [HttpGet]
         public IActionResult Create()
         {

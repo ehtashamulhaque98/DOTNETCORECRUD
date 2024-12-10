@@ -36,16 +36,27 @@ namespace DotNetCoreCrud.Web.DataAccessLayer
             }
 
         }
-
-        public List<Product> GetAllProducts()
+       
+        public List<Product> GetAllProducts(string search = null)
         {
             List<Product> products = new List<Product>();
 
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand("spGetAllProducts", connection);
-                command.CommandType = CommandType.StoredProcedure;
+
+                SqlCommand command;
+                if (!string.IsNullOrEmpty(search))
+                {
+                    command = new SqlCommand("spGetAllProducts", connection);
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.AddWithValue("@Search", "%" + search + "%");
+                }
+                else
+                {
+                    command = new SqlCommand("spGetAllProducts", connection);
+                    command.CommandType = CommandType.StoredProcedure;
+                }
 
                 using (SqlDataReader reader = command.ExecuteReader())
                 {
@@ -77,6 +88,7 @@ namespace DotNetCoreCrud.Web.DataAccessLayer
                 cmd.Parameters.AddWithValue("@Price", product.Price);
                 cmd.Parameters.AddWithValue("@Quantity", product.Quantity);
                 cmd.Parameters.AddWithValue("@ProductCategory", product.ProductCategory);
+
                 conn.Open();
                 cmd.ExecuteNonQuery();
             }
@@ -141,7 +153,8 @@ namespace DotNetCoreCrud.Web.DataAccessLayer
                             ProductName = reader["ProductName"].ToString(),
                             Price = (decimal)reader["Price"],
                             Quantity = (int)reader["Quantity"],
-                            ProductCategory = reader["ProductCategory"].ToString()
+                            ProductCategory = reader["ProductCategory"].ToString(),
+
                         };
                     }
                 }
