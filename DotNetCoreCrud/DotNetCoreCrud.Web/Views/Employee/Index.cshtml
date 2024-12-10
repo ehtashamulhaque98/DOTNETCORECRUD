@@ -1,7 +1,18 @@
 ﻿@model List<DotNetCoreCrud.Web.Models.Employee>
 
-<h2>Employee List</h2> <a asp-action="Create" class="btn btn-primary">Add New Employee</a>
+<h2>Employee List</h2> 
 <table class="table table-striped">
+    <form method="get" action="@Url.Action("Index", "Employee")">
+        <div class="form-group">
+            <input type="text"
+                   name="search"
+                   placeholder="Search products..."
+                   class="form-control"
+
+        </div>
+        <button type="submit" class="btn btn-primary">Search</button>
+        <a asp-action="Create" class="btn btn-primary">Add New Employee</a>
+    </form>
     <thead>
         <tr>
             <th>Id</th>

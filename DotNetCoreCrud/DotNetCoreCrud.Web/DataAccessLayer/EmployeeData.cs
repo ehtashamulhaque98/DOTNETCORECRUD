@@ -36,16 +36,28 @@ namespace DotNetCoreCrud.Web.DataAccessLayer
             return employeeTypes;
         }
 
-        public List<Employee> GetAllEmployees()
+        public List<Employee> GetAllEmployees(string search = null)
         {
             List<Employee> employees = new List<Employee>();
 
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand("spGetAllEmployeess", connection);
-                command.CommandType = CommandType.StoredProcedure;
 
+                SqlCommand command;
+
+                if (!string.IsNullOrEmpty(search))
+                {
+                    command = new SqlCommand("spGetAllEmployeess", connection);
+                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.AddWithValue("@Search", "%" + search + "%");
+                }
+                else
+                {
+                    command = new SqlCommand("spGetAllEmployeess", connection);
+                    command.CommandType = CommandType.StoredProcedure;
+                }
+     
                 using (SqlDataReader reader = command.ExecuteReader())
                 {
                     while (reader.Read())

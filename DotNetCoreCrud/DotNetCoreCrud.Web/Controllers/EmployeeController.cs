@@ -35,11 +35,19 @@ namespace DotNetCoreCrud.Web.Controllers
             return selectList;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(string search)
         {
             var employees = employeeData.GetAllEmployees();
 
-            return View(employees);
+            if (!string.IsNullOrEmpty(search))
+            {
+                employees = employees.Where(e =>
+                e.Name.Contains(search, StringComparison.OrdinalIgnoreCase) ||
+                e.City.Contains(search, StringComparison.OrdinalIgnoreCase) ||
+                e.EmployeeType.Contains(search, StringComparison.OrdinalIgnoreCase)).ToList();
+            }
+
+                return View(employees);
         }
         [HttpGet]
         public IActionResult Create()
