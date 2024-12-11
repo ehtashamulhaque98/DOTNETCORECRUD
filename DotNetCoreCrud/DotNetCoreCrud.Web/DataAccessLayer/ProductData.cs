@@ -76,7 +76,6 @@ namespace DotNetCoreCrud.Web.DataAccessLayer
             }
             return products;
         }
-
         public int GetTotalProductCount(string search = null)
         {
             using (SqlConnection connection = new SqlConnection(_connectionString))
@@ -97,45 +96,7 @@ namespace DotNetCoreCrud.Web.DataAccessLayer
             }
         }
 
-        //public List<Product> GetAllProducts(string search = null)
-        //{
-        //    List<Product> products = new List<Product>();
-
-        //    using (SqlConnection connection = new SqlConnection(_connectionString))
-        //    {
-        //        connection.Open();
-
-        //        SqlCommand command;
-        //        if (!string.IsNullOrEmpty(search))
-        //        {
-        //            command = new SqlCommand("spGetAllProducts", connection);
-        //            command.CommandType = CommandType.StoredProcedure;
-        //            command.Parameters.AddWithValue("@Search", "%" + search + "%");
-        //        }
-        //        else
-        //        {
-        //            command = new SqlCommand("spGetAllProducts", connection);
-        //            command.CommandType = CommandType.StoredProcedure;
-        //        }
-
-        //        using (SqlDataReader reader = command.ExecuteReader())
-        //        {
-        //            while (reader.Read())
-        //            {
-        //                products.Add(new Product()
-        //                {
-        //                    Id = (int)reader["Id"],
-        //                    ProductName = reader["ProductName"].ToString(),
-        //                    Price = (decimal)reader["Price"],
-        //                    Quantity = (int)reader["Quantity"],
-        //                    ProductCategory = reader["ProductCategory"].ToString(),
-        //                });
-        //            }
-        //        }
-        //    }
-
-        //    return products;
-        //}
+       
 
         public void AddProduct(Product product)
         {
