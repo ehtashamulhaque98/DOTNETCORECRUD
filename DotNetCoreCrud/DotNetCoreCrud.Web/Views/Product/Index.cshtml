@@ -46,6 +46,25 @@
     </tbody>
 </table>
 
+<div class="pagination">
+    @if (ViewBag.CurrentPage > 1)
+    {
+        <a href="@Url.Action("Index", new { search = ViewBag.Search, pageNumber = ViewBag.CurrentPage - 1 })" class="btn btn-primary">Previous</a>
+    }
+
+    @for (int i = 1; i <= ViewBag.TotalPages; i++)
+    {
+        <a href="@Url.Action("Index", new { search = ViewBag.Search, pageNumber = i })" class="btn btn-secondary @(ViewBag.CurrentPage == i ? "active" : "")">
+            @i
+        </a>
+    }
+
+    @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+    {
+        <a href="@Url.Action("Index", new { search = ViewBag.Search, pageNumber = ViewBag.CurrentPage + 1 })" class="btn btn-primary">Next</a>
+    }
+</div>
+
 @section Scripts {
     <script type="text/javascript">
         function deleteProduct(productId) {

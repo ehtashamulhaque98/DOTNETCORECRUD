@@ -36,8 +36,8 @@ namespace DotNetCoreCrud.Web.DataAccessLayer
             }
 
         }
-       
-        public List<Product> GetAllProducts(string search = null)
+
+        public List<Product> GetAllProducts(int pageNumber, int pageSize, string search = null)
         {
             List<Product> products = new List<Product>();
 
@@ -45,17 +45,18 @@ namespace DotNetCoreCrud.Web.DataAccessLayer
             {
                 connection.Open();
 
-                SqlCommand command;
+                SqlCommand command = new SqlCommand("spGetPagedProducts", connection);
+                command.CommandType = CommandType.StoredProcedure;
+
+                command.Parameters.AddWithValue("@PageNumber", pageNumber);
+                command.Parameters.AddWithValue("@PageSize", pageSize);
                 if (!string.IsNullOrEmpty(search))
                 {
-                    command = new SqlCommand("spGetAllProducts", connection);
-                    command.CommandType = CommandType.StoredProcedure;
                     command.Parameters.AddWithValue("@Search", "%" + search + "%");
                 }
                 else
                 {
-                    command = new SqlCommand("spGetAllProducts", connection);
-                    command.CommandType = CommandType.StoredProcedure;
+                    command.Parameters.AddWithValue("@Search", DBNull.Value);
                 }
 
                 using (SqlDataReader reader = command.ExecuteReader())
@@ -73,9 +74,68 @@ namespace DotNetCoreCrud.Web.DataAccessLayer
                     }
                 }
             }
-
             return products;
         }
+
+        public int GetTotalProductCount(string search = null)
+        {
+            using (SqlConnection connection = new SqlConnection(_connectionString))
+            {
+                SqlCommand command = new SqlCommand("spGetTotalProductCount", connection);
+                command.CommandType = CommandType.StoredProcedure;
+
+                if (!string.IsNullOrEmpty(search))
+                {
+                    command.Parameters.AddWithValue("@Search", "%" + search + "%");
+                }
+                else
+                {
+                    command.Parameters.AddWithValue("@Search", DBNull.Value);
+                }
+                connection.Open();
+                return (int)command.ExecuteScalar();
+            }
+        }
+
+        //public List<Product> GetAllProducts(string search = null)
+        //{
+        //    List<Product> products = new List<Product>();
+
+        //    using (SqlConnection connection = new SqlConnection(_connectionString))
+        //    {
+        //        connection.Open();
+
+        //        SqlCommand command;
+        //        if (!string.IsNullOrEmpty(search))
+        //        {
+        //            command = new SqlCommand("spGetAllProducts", connection);
+        //            command.CommandType = CommandType.StoredProcedure;
+        //            command.Parameters.AddWithValue("@Search", "%" + search + "%");
+        //        }
+        //        else
+        //        {
+        //            command = new SqlCommand("spGetAllProducts", connection);
+        //            command.CommandType = CommandType.StoredProcedure;
+        //        }
+
+        //        using (SqlDataReader reader = command.ExecuteReader())
+        //        {
+        //            while (reader.Read())
+        //            {
+        //                products.Add(new Product()
+        //                {
+        //                    Id = (int)reader["Id"],
+        //                    ProductName = reader["ProductName"].ToString(),
+        //                    Price = (decimal)reader["Price"],
+        //                    Quantity = (int)reader["Quantity"],
+        //                    ProductCategory = reader["ProductCategory"].ToString(),
+        //                });
+        //            }
+        //        }
+        //    }
+
+        //    return products;
+        //}
 
         public void AddProduct(Product product)
         {

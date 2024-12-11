@@ -31,19 +31,32 @@ namespace DotNetCoreCrud.Web.Controllers
             }
             return selectList;
         }
-        public IActionResult Index(string search)
-        {
-            var products = productData.GetAllProducts();
 
-            if (!string.IsNullOrEmpty(search))
-            {
-                products = products.Where(p =>
-                p.ProductName.Contains(search, StringComparison.OrdinalIgnoreCase) ||
-                p.ProductCategory.Contains(search, StringComparison.OrdinalIgnoreCase)).ToList();
-            }
+        public IActionResult Index(string search, int pageNumber = 1, int pageSize = 10)
+        {
+            var products = productData.GetAllProducts(pageNumber, pageSize, search);
+
+            var totalProducts = productData.GetTotalProductCount(search);
+            ViewBag.TotalPages = (int)Math.Ceiling((double)totalProducts / pageSize);
+            ViewBag.CurrentPage = pageNumber;
+            ViewBag.Search = search;
+
             return View(products);
         }
-    
+
+        //public IActionResult Index(string search)
+        //{
+        //    var products = productData.GetAllProducts();
+
+        //    if (!string.IsNullOrEmpty(search))
+        //    {
+        //        products = products.Where(p =>
+        //        p.ProductName.Contains(search, StringComparison.OrdinalIgnoreCase) ||
+        //        p.ProductCategory.Contains(search, StringComparison.OrdinalIgnoreCase)).ToList();
+        //    }
+        //    return View(products);
+        //}
+
         [HttpGet]
         public IActionResult Create()
         {
