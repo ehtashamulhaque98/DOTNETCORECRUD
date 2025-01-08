@@ -1,0 +1,43 @@
+﻿@model DotNetCoreCrud.Web.Models.Dish
+
+<h2>Update Dish</h2>
+
+@foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+{
+    <div class="alert alert-danger">
+        @error.ErrorMessage
+    </div>
+}
+
+<form asp-action="Update" asp-route-id="@Model.Id" method="post">
+    <div class="form-group">
+        <label asp-for="DishName"></label>
+        <input asp-for="DishName" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" required step="0.01" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Quantity"></label>
+        <input asp-for="Quantity" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DishCategory"></label>
+        <select asp-for="DishCategory" asp-items="ViewBag.DishCategories" class="form-control" required>
+            <option value="">Select Category</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update Dish</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+
+

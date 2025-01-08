@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\dataaccesslayer\\productdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\dataaccesslayer\\productdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\controllers\\dishcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\controllers\\dishcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\dataaccesslayer\\studentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\dataaccesslayer\\studentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\dataaccesslayer\\dishdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\dataaccesslayer\\dishdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\dataaccesslayer\\employeedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\dataaccesslayer\\employeedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\views\\dish\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\views\\dish\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\views\\dish\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\views\\dish\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\views\\dish\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\views\\dish\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\views\\dish\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\views\\dish\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\models\\dishcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\models\\dishcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\models\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\models\\dish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -27,24 +47,44 @@
       "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\dataaccesslayer\\productdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\dataaccesslayer\\productdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\dataaccesslayer\\studentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\dataaccesslayer\\studentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\dataaccesslayer\\employeedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\dataaccesslayer\\employeedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|solutionrelative:dotnetcorecrud.web\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BE07B586-FE78-460F-98A3-C9654FB515D3}|DotNetCoreCrud.Web\\DotNetCoreCrud.Web.csproj|c:\\users\\ehtas\\onedrive\\documents\\github\\repo\\dotnetcorecrud\\dotnetcorecrud\\dotnetcorecrud.web\\views\\student\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -66,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,116 +122,267 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "DotNetCoreCrud.Web\\Controllers\\EmployeeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAATAAAA",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Dish\\Create.cshtml",
+              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Views\\Dish\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Dish\\Create.cshtml",
+              "RelativeToolTip": "DotNetCoreCrud.Web\\Views\\Dish\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T11:58:39.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Dish\\Update.cshtml",
+              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Views\\Dish\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Dish\\Update.cshtml",
+              "RelativeToolTip": "DotNetCoreCrud.Web\\Views\\Dish\\Update.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T11:58:42.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DishData.cs",
+              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\DataAccessLayer\\DishData.cs",
+              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\DataAccessLayer\\DishData.cs",
+              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\DataAccessLayer\\DishData.cs",
+              "RelativeToolTip": "DotNetCoreCrud.Web\\DataAccessLayer\\DishData.cs",
+              "ViewState": "AQIAAJEAAAAAAAAAAADwv6wAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T11:09:49.049Z"
+              "WhenOpened": "2024-12-31T11:53:05.944Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EmployeeData.cs",
-              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\DataAccessLayer\\EmployeeData.cs",
-              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\DataAccessLayer\\EmployeeData.cs",
-              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\DataAccessLayer\\EmployeeData.cs",
-              "RelativeToolTip": "DotNetCoreCrud.Web\\DataAccessLayer\\EmployeeData.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAYwDgAAABPAAAA",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Dish\\Delete.cshtml",
+              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Views\\Dish\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Dish\\Delete.cshtml",
+              "RelativeToolTip": "DotNetCoreCrud.Web\\Views\\Dish\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T11:58:40.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DishController.cs",
+              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Controllers\\DishController.cs",
+              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Controllers\\DishController.cs",
+              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Controllers\\DishController.cs",
+              "RelativeToolTip": "DotNetCoreCrud.Web\\Controllers\\DishController.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAowD4AAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T04:24:20.629Z"
+              "WhenOpened": "2024-12-31T11:54:00.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Dish\\Index.cshtml",
+              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Views\\Dish\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Dish\\Index.cshtml",
+              "RelativeToolTip": "DotNetCoreCrud.Web\\Views\\Dish\\Index.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAFUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-31T11:55:12.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DishCategory.cs",
+              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Models\\DishCategory.cs",
+              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Models\\DishCategory.cs",
+              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Models\\DishCategory.cs",
+              "RelativeToolTip": "DotNetCoreCrud.Web\\Models\\DishCategory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T11:49:31.29Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "Dish.cs",
+              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Models\\Dish.cs",
+              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Models\\Dish.cs",
+              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Models\\Dish.cs",
+              "RelativeToolTip": "DotNetCoreCrud.Web\\Models\\Dish.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T05:38:54.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Models\\Product.cs",
               "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Models\\Product.cs",
               "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Models\\Product.cs",
               "RelativeToolTip": "DotNetCoreCrud.Web\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T05:05:33.597Z"
+              "WhenOpened": "2025-01-03T07:15:12.003Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Product\\Delete.cshtml",
-              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Views\\Product\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Product\\Delete.cshtml",
-              "RelativeToolTip": "DotNetCoreCrud.Web\\Views\\Product\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T10:28:16.627Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Update.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Product\\Update.cshtml",
-              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Views\\Product\\Update.cshtml",
-              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Product\\Update.cshtml",
-              "RelativeToolTip": "DotNetCoreCrud.Web\\Views\\Product\\Update.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T10:27:57.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Product\\Create.cshtml",
-              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Views\\Product\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Product\\Create.cshtml",
-              "RelativeToolTip": "DotNetCoreCrud.Web\\Views\\Product\\Create.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T10:18:33.961Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "DotNetCoreCrud.Web\\Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-04T10:07:18.736Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 11,
               "Title": "ProductData.cs",
               "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\DataAccessLayer\\ProductData.cs",
               "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\DataAccessLayer\\ProductData.cs",
               "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\DataAccessLayer\\ProductData.cs",
               "RelativeToolTip": "DotNetCoreCrud.Web\\DataAccessLayer\\ProductData.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAC8AAAAjAAAA",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAgwAsAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T08:58:53.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T08:58:53.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "DotNetCoreCrud.Web\\Views\\Product\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T09:26:30.601Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Product\\Update.cshtml",
+              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Views\\Product\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Product\\Update.cshtml",
+              "RelativeToolTip": "DotNetCoreCrud.Web\\Views\\Product\\Update.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T09:24:22.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DotNetCoreCrud.Web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-02T09:04:24.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "DotNetCoreCrud.Web\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-04T10:07:18.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Controllers\\ProductController.cs",
               "RelativeToolTip": "DotNetCoreCrud.Web\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAJAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwAwAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-04T08:57:41.371Z"
+              "WhenOpened": "2025-01-02T07:52:19.971Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
+              "Title": "StudentData.cs",
+              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\DataAccessLayer\\StudentData.cs",
+              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\DataAccessLayer\\StudentData.cs",
+              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\DataAccessLayer\\StudentData.cs",
+              "RelativeToolTip": "DotNetCoreCrud.Web\\DataAccessLayer\\StudentData.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAgwGAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T05:20:45.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "DotNetCoreCrud.Web\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-11T04:35:21.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "DotNetCoreCrud.Web\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T05:20:06.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "DotNetCoreCrud.Web\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T11:09:49.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EmployeeData.cs",
+              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\DataAccessLayer\\EmployeeData.cs",
+              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\DataAccessLayer\\EmployeeData.cs",
+              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\DataAccessLayer\\EmployeeData.cs",
+              "RelativeToolTip": "DotNetCoreCrud.Web\\DataAccessLayer\\EmployeeData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAO0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T04:24:20.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Student\\Index.cshtml",
+              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Views\\Student\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Student\\Index.cshtml",
+              "RelativeToolTip": "DotNetCoreCrud.Web\\Views\\Student\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-12T09:46:36.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Student\\Delete.cshtml",
               "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Views\\Student\\Delete.cshtml",
@@ -203,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Student\\Update.cshtml",
               "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Views\\Student\\Update.cshtml",
@@ -215,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 23,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Views\\Student\\Create.cshtml",
               "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Views\\Student\\Create.cshtml",
@@ -224,30 +415,6 @@
               "ViewState": "AQIAABgAAAAAAAAAAAAAADAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-30T07:31:31.143Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentData.cs",
-              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\DataAccessLayer\\StudentData.cs",
-              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\DataAccessLayer\\StudentData.cs",
-              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\DataAccessLayer\\StudentData.cs",
-              "RelativeToolTip": "DotNetCoreCrud.Web\\DataAccessLayer\\StudentData.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAIwFEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T05:20:45.194Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "DotNetCoreCrud.Web\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\Ehtas\\OneDrive\\Documents\\GitHub\\repo\\DOTNETCORECRUD\\DotNetCoreCrud\\DotNetCoreCrud.Web\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "DotNetCoreCrud.Web\\Controllers\\StudentController.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAYwC4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T05:20:06.693Z"
             }
           ]
         }

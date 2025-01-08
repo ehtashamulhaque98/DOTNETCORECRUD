@@ -1,0 +1,42 @@
+﻿@model DotNetCoreCrud.Web.Models.Dish
+
+<h2>Add Dish</h2>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="DishName">Dish Name</label>
+        <input type="text" class="form-control" id="DishName" name="DishName" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Price">Price</label>
+        <input type="number" class="form-control" id="Price" name="Price" required step="0.01" />
+    </div>
+
+    <div class="form-group">
+        <label for="Quantity">Quantity</label>
+        <input type="number" class="form-control" id="Quantity" name="Quantity" required />
+    </div>
+
+    <div class="form-group">
+        <label for="DishCategory">Dish Category</label>
+        <select class="form-control" id="DishCategory" name="DishCategory" required>
+            <option value="">Select Category</option>
+            @foreach (var category in ViewBag.DishCategories as List<SelectListItem>)
+            {
+                <option value="@category.Value">@category.Text</option>
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add Dish</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+
+
+
+
