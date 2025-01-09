@@ -1,0 +1,43 @@
+﻿@model DotNetCoreCrud.Web.Models.Fruit
+
+<h2>Update Fruit</h2>
+
+@foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+{
+    <div class="alert alert-danger">
+        @error.ErrorMessage
+    </div>
+}
+
+<form asp-action="Update" asp-route-id="@Model.FruitId" method="post">
+    <div class="form-group">
+        <label asp-for="FruitName"></label>
+        <input asp-for="FruitName" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" required step="0.01" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Quantity"></label>
+        <input asp-for="Quantity" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CategoryId"></label>
+        <select asp-for="CategoryId" asp-items="ViewBag.FruitCategories" class="form-control" required>
+            <option value="">Select Category</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update Fruit</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+
+

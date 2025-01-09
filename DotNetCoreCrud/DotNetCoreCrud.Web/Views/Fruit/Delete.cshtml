@@ -1,0 +1,21 @@
+﻿@model DotNetCoreCrud.Web.Models.Fruit
+
+<h2>Delete Fruit</h2>
+
+<p>Are you sure you want to delete this fruit?</p>
+
+<div>
+    <h4>Fruit Details:</h4>
+    <p><strong>Name:</strong> @Model.FruitName</p>
+    <p><strong>Price:</strong> @Model.Price</p>
+    <p><strong>Quantity:</strong> @Model.Quantity</p>
+    <p><strong>Category:</strong> @Model.CategoryType</p>
+</div>
+
+<form asp-action="Delete" asp-route-id="@Model.FruitId" method="post">
+    <button type="submit" class="btn btn-danger">Yes, Delete</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+
+

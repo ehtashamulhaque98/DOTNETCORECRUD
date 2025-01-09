@@ -1,0 +1,87 @@
+﻿@model List<DotNetCoreCrud.Web.Models.Fruit>
+
+<h2>Fruit List</h2>
+<form method="get" action="@Url.Action("Index", "Fruit")">
+    <div class="form-group">
+        <input type="text"
+               name="search"
+               placeholder="Search fruits..."
+               class="form-control" 
+
+
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+
+<a asp-action="Create" class="btn btn-primary">Add New Fruit</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Fruit Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Fruit Category</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var fruit in Model)
+        {
+            <tr id="fruit-@fruit.FruitId">
+                <td>@fruit.FruitId</td>
+                <td>@fruit.FruitName</td>
+                <td>@fruit.Price</td>
+                <td>@fruit.Quantity</td>
+                <td>@fruit.CategoryType</td>
+                <td>
+                    <a href="@Url.Action("Update", "Fruit", new { id = fruit.FruitId })" class="btn btn-primary">Update</a>
+                    <button type="button" class="btn btn-danger" onclick="deleteFruit(@fruit.FruitId)">Delete</button>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="pagination">
+    @if (ViewBag.CurrentPage > 1)
+    {
+        <a href="@Url.Action("Index", new { search = ViewBag.Search, pageNumber = ViewBag.CurrentPage - 1 })" class="btn btn-primary">Previous</a>
+    }
+
+    @for (int i = 1; i <= ViewBag.TotalPages; i++)
+    {
+        <a href="@Url.Action("Index", new { search = ViewBag.Search, pageNumber = i })" class="btn btn-secondary @(ViewBag.CurrentPage == i ? "active" : "")">
+            @i
+        </a>
+    }
+
+    @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+    {
+        <a href="@Url.Action("Index", new { search = ViewBag.Search, pageNumber = ViewBag.CurrentPage + 1 })" class="btn btn-primary">Next</a>
+    }
+</div>
+
+@section Scripts {
+    <script type="text/javascript">
+        function deleteFruit(fruitId) {
+            if (confirm("Are you sure you want to delete this fruit?")) {
+                $.ajax({
+                    url: '@Url.Action("DeleteFruit", "Fruit")',
+                    type: 'POST',
+                    data: { id: fruitId },
+                    success: function () {
+                        $('#fruit-' + fruitId).remove();
+                    },
+                    error: function () {
+                        alert('Error deleting fruit');
+                    }
+                });
+            }
+        }
+    </script>
+}
+
+
